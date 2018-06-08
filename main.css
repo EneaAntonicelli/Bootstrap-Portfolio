@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#header {
+    font-size: 36px;
+    position: relative;
+    left: 15px;
+    margin-bottom: 10px;
+}
+#titleSection {
+    display: block;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    padding: 40px;
+    position: relative;
+}
+#titleDesigner {
+    width: 700px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+}
+#titleComment {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    color: rgb(128, 128, 128)
+}
+#aboutMeParagraph{
+    padding: 0 75px 0 30px;
+}
+#card {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.container {
+    clear:both;
+    max-width: 90%;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+.nav {
+    width: 400px;
+    float:right;
+    padding: 20px;
+    margin-bottom: 50px; 
+}
+.col-md-3{
+    padding-right: 5px;
+}
