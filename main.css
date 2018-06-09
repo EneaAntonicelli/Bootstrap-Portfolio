@@ -1,8 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Josefin Sans', sans-serif; 
+}
+body {
+    width: 90%;
+    margin: auto;
 }
 #header {
     font-size: 36px;
@@ -10,35 +13,67 @@
     left: 15px;
     margin-bottom: 10px;
 }
-#titleSection {
+#titlesectionbackground {
     display: block;
-    height: 400px;
+    height: 200px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-weight: 200;
-    padding: 40px;
+    padding: 0 40px 0 40px;
+    font-size: 16px;
     position: relative;
 }
+#titlesection {
+    float: left;
+}
+#ronsection {
+    position: absolute;
+    right:0%;
+    width: 100%;
+    font-size: 16px;
+    transform: rotate(20deg);
+}
+.ronchambers {
+    font-size: 16px;
+}
 #titleDesigner {
-    width: 700px;
+    width: 100%;
     font-family: 'Julius Sans One', sans-serif;
-    font-weight: bolder;
+    font-size: 32px;
+    
 }
 #titleComment {
     display: block;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
+    font-size: 24px;
+    position: relative;
+    left: 30%;
     color: rgb(128, 128, 128)
 }
 #aboutMeParagraph{
+    font-family: 'Josefin Sans', sans-serif;
     padding: 0 75px 0 30px;
+    float: left;
 }
 #card {
-    position: absolute;
     right: 0;
     top: 0;
+    float: left;
 }
-
+.card {
+    border: 0;
+    border: none;
+    float: left;
+    position: relative;
+    bottom: 60px;
+}
+.card-img-top {
+    padding-bottom: 50px;
+}
+#aboutmeandimage {
+    float: left;
+}
 .container {
     clear:both;
     max-width: 90%;
@@ -47,9 +82,9 @@
     margin-right: 0%;
 }
 .nav {
-    width: 400px;
-    float:right;
-    padding: 20px;
+    width: 30%;
+    float: right;
+    padding: 20px 0 60px 20px;
     margin-bottom: 50px; 
 }
 .col-md-3{
@@ -67,8 +102,23 @@
     align-content: center;
     text-align: center;
     line-height: 100px;
-    
+    padding: 20px; 
 }
-.lavenderimage {
-   
+row {
+    width: 100%;
+}
+.lavenderimage{
+    transition: transform .3s;
+    align-self: center;
+    align-items: center;
+    float: left;
+}
+
+.lavenderimage:hover {
+   transform: scale(1.1);
+
+}
+#square1 {
+    position: relative;
+    text-align: center;
 }
