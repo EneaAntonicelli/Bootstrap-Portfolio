@@ -1,0 +1,73 @@
+/* Universal content */
+
+/* Header content */
+.navbar.navbar-light.bg-light {
+    background-color: #ffffff!important;
+    
+}
+.dropdown .dropdownmenu{
+    padding: 20px;
+}
+.dropdown .dropdown-menu {
+    left: -155px;
+}
+
+.header {
+    min-height: 8em;
+}
+.header .btn.btn-outline-secondary {
+    float: right;
+    margin: 20px;
+}
+.header button::after{
+    background: #ffffff;
+}
+a.navnar-brand img {
+    margin-left: 0;
+}
+
+/* Main content */
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 img {
+    max-width: 100%;
+    height: auto;
+}
+.row {
+    background: #ffffff;
+    min-height: 20em;
+    /* padding: 2em; */
+}
+.row .cardrow{
+    margin: 40px;
+}
+.row .col-sm-12 {
+    text-align: center;
+}
+.row .col-sm-12 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+.row .col-sm-12 h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+.col-sm-12 img {
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+/* Code for the 4 cards */
+.card img {
+    width: 50%;
+    padding: 40px 0 0 0;
+}
+.card .card-body {
+    margin-bottom: 30px;
+}
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 p{
+    padding: 20px;
+}
