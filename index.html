@@ -21,9 +21,9 @@
 <body>
     <header class="header">
         <div class="container">
-        <a href="contact.html" class="btn btn-outline-secondary">Contact
-        </a>
-    </div>
+            <a href="contact.html" class="btn btn-outline-secondary">Contact
+            </a>
+        </div>
     </header>
     <main class="main">
         <div class="container">
@@ -35,62 +35,96 @@
                 </div>
                 <div class="row boatsection">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <img id="boatbackground" src="assets/images/BoatBackground.jpg">
+                        <div class="container">
+                            <img id="boatbackground" src="assets/images/BoatBackground.jpg">
+                            <a href="www.reddit.com">
+                                <button class="btn btnboatimg">Button</button>
+                            </a>
+                        </div>
                         <p id="textoverboat">This is some dummy text</p>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
                             type and scrambled it to make a type specimen book. It has survived not only five centuries,
                             but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
                             in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-        <div class="row cardrow">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/square1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS WORK</h5>
-                        <p class="card-text">Collection of CSS related work</p>
-                        <a href="#" class="btn btn-primary">Go to CSS Project</a>
+        <div class="container cardrow">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/square1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS WORK</h5>
+                            <p class="card-text">Collection of CSS related work</p>
+                            <a href="#" class="btn btn-primary">Go to CSS Project</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/square2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS WORK</h5>
-                        <p class="card-text">Collection of CSS related work</p>
-                        <a href="#" class="btn btn-primary">Go to JS project</a>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/square2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS WORK</h5>
+                            <p class="card-text">Collection of CSS related work</p>
+                            <a href="#" class="btn btn-primary">Go to JS project</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/square3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS WORK</h5>
-                        <p class="card-text">Collection of CSS related work</p>
-                        <a href="#" class="btn btn-primary">Go to PHP project</a>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/square3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS WORK</h5>
+                            <p class="card-text">Collection of CSS related work</p>
+                            <a href="#" class="btn btn-primary">Go to PHP project</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/square4.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS WORK</h5>
-                        <p class="card-text">Collection of CSS related work</p>
-                        <a href="#" class="btn btn-primary">Go to Python3</a>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/square4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS WORK</h5>
+                            <p class="card-text">Collection of CSS related work</p>
+                            <a href="#" class="btn btn-primary">Go to Python3</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+            <div class="container contactcontainer">
+                <h1>Contact Me</h1>
+                <div class="row contactrow">
+                    <form class="formactionpage" action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+        
 
     </main>
 

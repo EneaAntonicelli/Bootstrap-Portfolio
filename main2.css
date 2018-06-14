@@ -1,5 +1,7 @@
 /* Universal content */
-
+html, body {
+    overflow-x: hidden;
+}
 /* Header content */
 .navbar.navbar-light.bg-light {
     background-color: #ffffff!important;
@@ -37,9 +39,8 @@ a.navnar-brand img {
     min-height: 20em;
     /* padding: 2em; */
 }
-.row .cardrow{
-    margin: 40px;
-}
+
+
 .row .col-sm-12 {
     text-align: center;
 }
@@ -54,20 +55,96 @@ a.navnar-brand img {
     font-size: 1em;
     text-align: center;
 }
+/* This is the main image */
 .col-sm-12 img {
     display: block;
     margin: auto;
     margin-bottom: 2em;
 }
 
+.container{
+    position: relative;
+    width: 100%;
+}
+.btnboatimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);     
+    background-color: rgba(255,255,255,0);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}  
+
+.btnboatimg:hover {
+    background-color: rgba(255,255,255,.5);
+}
+
 /* Code for the 4 cards */
+
+.cardrow {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .card img {
     width: 50%;
     padding: 40px 0 0 0;
+    transition: transform .3s;
+}
+.card img:hover {
+    transform: scale(1.1);
 }
 .card .card-body {
     margin-bottom: 30px;
 }
 .col-xs-12.col-sm-12.col-md-12.col-lg-12 p{
     padding: 20px;
+}
+/* FORM CONTENT */
+
+.contactcontainer {
+    /* border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px; */
+    padding: 2em;
+    text-align: left;
+}
+.contactcontainer h1 {
+    text-align: center;
+    padding-bottom: 2em;
+    font-size: 36px;    
+}
+.formactionpage {
+    width: 100%;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
 }
