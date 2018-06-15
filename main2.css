@@ -106,14 +106,14 @@ a.navnar-brand img {
 }
 /* FORM CONTENT */
 
-.contactcontainer {
+#contactcontainer {
     /* border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px; */
     padding: 2em;
     text-align: left;
 }
-.contactcontainer h1 {
+#contactcontainer h1 {
     text-align: center;
     padding-bottom: 2em;
     font-size: 36px;    
@@ -259,6 +259,7 @@ input[type=submit]:hover {
       position: fixed;
       top: 0;
       right: 0;
+      z-index: 999;
     }
     
     #content.active {
