@@ -1,14 +1,14 @@
 // BACK TO TOP BUTTON
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 500) {        // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(1000);    // Fade in the arrow
+    if ($(this).scrollTop() >= 700) {        
+        $('#return-to-top').fadeIn(1000);   
     } else {
-        $('#return-to-top').fadeOut(1000);   // Else fade out the arrow
+        $('#return-to-top').fadeOut(1000);   
     }
 });
-$('#return-to-top').click(function() {      // When arrow is clicked
+$('#return-to-top').click(function() {      
     $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
+        scrollTop : 0                       
     }, 500);
 });
 // END OF BACK TO TOP BUTTON
@@ -18,4 +18,13 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 $('textarea').each(function(i) { 
     if ($.trim($(this).text()) == '') 
     $(this).text('').trigger('blur'); 
+});
+
+
+
+//SMOOTHS OUT THE TRANSITION DOWN TO THE CONTACT FORM
+$('#top').click(function() {      // When arrow is clicked
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contactcontainer").offset().top
+    }, 700);
 });
