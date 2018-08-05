@@ -93,6 +93,7 @@ a.navnar-brand img {
 
 .EGA_card {
     min-height: 600px;
+    margin-top: 10px;
 }
 
 .cardrow {
@@ -104,11 +105,15 @@ a.navnar-brand img {
     padding: 40px 0 0 0;
     transition: transform .3s;
 }
+
 .card img:hover {
     transform: scale(1.1);
 }
 .card .card-body {
     margin-bottom: 30px;
+}
+.card-title {
+    margin-bottom: 1.75rem;
 }
 .col-xs-12.col-sm-12.col-md-12.col-lg-12 p{
     padding: 20px;
