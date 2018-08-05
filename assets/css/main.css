@@ -14,6 +14,8 @@ html, body {
     left: -155px;
 }
 
+
+
 .header {
     min-height: 8em;
 }
@@ -30,6 +32,9 @@ a.navnar-brand img {
 
 /* Main content */
 
+#logoman {
+    margin-top: 30px;
+}
 .col-xs-12.col-sm-12.col-md-12.col-lg-12 img {
     max-width: 100%;
     height: auto;
@@ -84,7 +89,7 @@ a.navnar-brand img {
     background-color: rgba(255,255,255,.5);
 }
 
-/* Code for the 4 cards */
+/* 4 CARD CODE */
 
 .EGA_card {
     min-height: 600px;
@@ -116,13 +121,15 @@ a.navnar-brand img {
     margin: auto;
     position: absolute;
     bottom: 50px;
-    background-color: #616C65;
-    border-color: #616C65;
+    background-color: #514644;
+    border-color: #514644;
 }
 .EGA_cardButton:hover {
     background-color: rgb(156, 172, 162);
     border-color: rgb(156, 172, 162);
 }
+
+/* END OF 4 CARD CODE */
 
 /* FORM CONTENT */
 
@@ -169,6 +176,8 @@ input[type=submit]:hover {
     background-color: #32557e;
 }
 
+/* END OF FORM CONTENT */
+
     /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -177,19 +186,5 @@ input[type=submit]:hover {
         .wrapper {
             display: none;
         }
-      /* #sidebar {
-        margin-left: -250px;
-      }
-      #sidebar.active {
-        margin-left: 0;
-      }
-      #content {
-        width: 100%;
-      }
-      #content.active {
-        width: calc(100% - 250px);
-      }
-      #sidebarCollapse span {
-        display: none;
-      } */
+     
     }
